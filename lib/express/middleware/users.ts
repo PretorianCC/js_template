@@ -4,7 +4,7 @@ interface User {
 }
 
 export const users: User[] = [
-  {id: 1, name: 'user 1'},
-  {id: 2, name: 'user 2'},
-  {id: 3, name: 'user 3'}
+  {id: 1, name: 'user1'},
+  {id: 2, name: 'user2'},
+  {id: 3, name: 'user3'}
 ];

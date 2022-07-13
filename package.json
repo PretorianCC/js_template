@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --coverage --colors"
+    "test:coverage": "jest --coverage --colors",
+    "build:esbuild": "esbuild ./bundlers/ESBuild/src/index.mjs --bundle --outdir=\"./bundlers/ESBuild/build\""
   },
   "keywords": [],
   "author": "",
@@ -32,6 +33,7 @@
     "@types/express": "^4.17.13",
     "@types/jsonwebtoken": "^8.5.8",
     "@types/node": "^16.7.12",
+    "esbuild": "^0.14.48",
     "jest": "^26.6.3"
   }
 }

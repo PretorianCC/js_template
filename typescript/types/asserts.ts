@@ -14,8 +14,7 @@ namespace Asserts {
   function assertUser(obj: unknown): asserts obj is User {
     if (typeof obj === 'object' && !!obj && 'name' in obj) {
       return;
-    } else {
-      throw new Error('Это не пользователь.')
     }
+    throw new Error('Это не пользователь.')
   }
 }
